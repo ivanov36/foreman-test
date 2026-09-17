@@ -1,14 +1,19 @@
-Тестовое задание — Foreman + Ansible
+# Тестовое задание — Foreman + Ansible
 
-Задачи:
 
-1. Развернуть Foreman
-2. Зарегистрировать managed host
-3. Создать Host Group с provisioning template (NTP)
-4. Интеграция с Ansible — роль запрета root-логина
 
-Структура репозитория
+## Задачи:
+
+Развернуть Foreman
+Зарегистрировать managed host
+Создать Host Group с provisioning template (NTP)
+Интеграция с Ansible — роль запрета root-логина
+
+
+
+## Структура репозитория
+
 templates/ — provisioning-шаблоны Foreman
 ansible/ — Ansible-роли
-docs/ — документация, скриншоты, сравнение подходов
+docs/ — сравнение подходов
 
