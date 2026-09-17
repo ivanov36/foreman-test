@@ -17,5 +17,5 @@ templates/ — provisioning-шаблоны Foreman;
 
 ansible/ — Ansible-роли;
 
-docs/ — сравнение подходов.
+docs/ — сравнение подходов (пункт 5).
 
