@@ -1,5 +1,10 @@
-# Настройка NTP после установки ОС
-# Параметр ntp-server задан в Host Group "Linux-Base-NTP"
+# %post-секция для Foreman-шаблона "Rocky 9 NTP kickstart"
+# Добавляется в конец стандартного "Kickstart default"
+#
+# Параметр ntp-server задан в Host Group Linux-Base-NTP
+# При установке вместо host_param подставляется pool.ntp.org
+#
+# Настраивает NTP (chrony) после установки ОС
 
 %post --log=/root/ntp-post.log
 # NTP configuration via Foreman Host Group parameter
